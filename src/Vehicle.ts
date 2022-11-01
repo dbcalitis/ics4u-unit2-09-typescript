@@ -11,11 +11,7 @@ class Vehicle {
   private readonly numTires: number
   private speed = 0
 
-  constructor(
-    colour: string,
-    maxSpeed: number,
-    numTires: number
-  ) {
+  constructor(colour: string, maxSpeed: number, numTires: number) {
     this.colour = colour
     this.maxSpeed = maxSpeed
     this.numTires = numTires

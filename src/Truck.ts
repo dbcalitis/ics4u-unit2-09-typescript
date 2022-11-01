@@ -51,11 +51,10 @@ class Truck extends Vehicle {
   }
 
   // break method - break but with air pressure.
-  break(
-    breakPower: number,
-    breakTime: number): void {
-    super.setSpeed(super.getSpeed() - (breakPower * breakTime) -
-      (this.airPressure * breakTime))
+  break(breakPower: number, breakTime: number): void {
+    super.setSpeed(
+      super.getSpeed() - breakPower * breakTime - this.airPressure * breakTime
+    )
 
     if (super.getSpeed() < 0) {
       super.setSpeed(0)

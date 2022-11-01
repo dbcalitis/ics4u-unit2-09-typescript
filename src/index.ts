@@ -1,10 +1,10 @@
 /*
-* This program is a vehicle class.
-*
-* @author  Daria Bernice Calitis
-* @version 1.0
-* @since   2022-10-25
-*/
+ * This program is a vehicle class.
+ *
+ * @author  Daria Bernice Calitis
+ * @version 1.0
+ * @since   2022-10-25
+ */
 
 import Truck from './Truck'
 import Bicycle from './Bicycle'
