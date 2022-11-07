@@ -25,13 +25,8 @@ class Truck extends Vehicle {
 
   // getters and setters
   status(): void {
-    console.log(
-      `        --> Speed: ${super.getSpeed()}
-        --> MaxSpeed: ${super.getMaxSpeed()}
-        --> License Plate: ${this.licensePlate}
-        --> Color: ${super.getColor()}
-        --> Number of tires: ${super.getTires()}`
-    )
+    super.status()
+    console.log(`        --> License Plate: ${this.licensePlate}`)
   }
 
   getLicensePlate(): string {

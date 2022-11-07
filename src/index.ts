@@ -25,7 +25,7 @@ bmx.status()
 console.log('\nRing bell.')
 bmx.ringBell()
 
-const bigTruck = new Truck('Grey', 'HGC-3456F', 200, 4, 10)
+const bigTruck = new Truck('HGC-3456F', 'Grey', 200, 4, 10)
 
 console.log('Created a Truck.\nStatus:\n')
 bigTruck.status()

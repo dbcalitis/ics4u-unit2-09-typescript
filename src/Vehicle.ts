@@ -31,7 +31,7 @@ class Vehicle {
     return this.colour
   }
 
-  setColor(newColour: string): void {
+  protected setColor(newColour: string): void {
     this.colour = newColour
   }
 
